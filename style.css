@@ -1,0 +1,97 @@
+
+* {
+    font-family: Arial, sans-serif;
+}
+  
+
+@font-face {
+    font-family: "Peace Sans";
+    src: url("PeaceSans.otf") format("opentype");
+  }
+  
+  #username, #day, #track {
+    font-family: "Peace Sans";
+  }
+  
+@font-face {
+    font-family: "Digital-7";
+    src: url("digital-7.ttf");
+}
+  
+.container {
+        margin: auto;
+        width: 50%;
+        border: 5px solid #000066;
+        border-radius: 20px;
+        box-shadow: 10px 10px 10px #999999;
+        background-image: linear-gradient(45deg, #66ccff, #000066);
+        background-size: cover;
+        background-repeat: no-repeat;
+        vertical-align: middle;
+        text-align: center;
+}
+
+img {
+        display: block;
+        margin: auto;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        object-fit: cover;
+}
+
+h2 {
+        font-family: "Lobster", cursive;
+        font-size: 36px;
+        color: white;
+        text-align: center;
+}
+h2 {
+    font-size: 28px;
+    color: #66ccff;
+  }
+
+
+p {
+        font-family: Arial, sans-serif;
+        font-size: 24px;
+        color: white;
+        text-align: center;
+}
+
+h3 {
+        font-family: "Lobster", cursive;
+        font-size: 32px;
+        color: white;
+        text-align: center;
+}
+a {
+        display: inline-block; 
+        padding: 10px 20px; 
+        border: 3px solid #000066; 
+        border-radius: 10px; 
+        background-color: white; 
+        font-family: Arial, sans-serif; 
+        font-size: 20px; 
+        color:#000066; 
+        text-align:center; 
+        text-decoration:none; 
+}
+
+a:hover {
+    background-color:#66ccff; 
+    color:white; 
+    text-align: center;
+}
+#time {
+        font-family: "Digital-7", monospace;
+        font-size: 48px;
+        color: white;
+        text-align: center;
+}
+#day{
+    font-size: 48px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
